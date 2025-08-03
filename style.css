@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.row{
+    
+
+}
+.btn{
+    padding:20px;
+    border: 3px solid   black;
+border-radius: 7px;
+cursor: pointer;
+}
+
+.btn:hover{
+
+background-color: rgb(0, 26, 255);
+color: white;
+}
+.input{
+    padding: 10px  24px ;
+    border: 3px solid   black  ;
+    border-radius: 7px ;
+    
+
+}
+
+@media(max-width:242px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:15px;
+    }
+    .btn{
+
+        padding: 15px;
+        border: none;
+margin-left: 1px;
+    }
+    .input{
+        padding: 10px   0px;
+        border: 1px solid   black;
+    }
+
+
+}
+
+
+
+
+
+
+
+
