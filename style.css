@@ -1,89 +1,151 @@
 body{
-background-image: url("./pic/Numbers.jpg");
+background-image: url("./pic/bg.jpg");
 background-size: cover;
 }
-h1{
-    text-align: center;
-    color: white;
-}
-.orange{
-background-color: orangered;
-border-color: orangered;
-}
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:7px;
-}
 
-.sechead{
-background-color: black;
-padding: 20px;
-border-radius: 7px;
-height: 40vh;
 }
-.btn{
-    padding:20px;
-    border: 1px solid   rgb(0, 0, 0);
-    
-border-radius: 4px;
-border-radius: 50%;
-background-color: rgb(0, 0, 0);
+h1{
+    font-style: italic;
+    text-align: center;
 color: white;
-box-shadow: -4px 0px 4px  rgb(255, 253, 253) ;
-cursor: pointer;
+}
+
+.fhead {
+    border: 2px solid blue;
+box-shadow:-1px -6px 13px rgb(110, 85, 255);
+margin-top:30px ;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 }
 
+.btn {
+    border: 2px solid blue;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 1px 2px 11px blue;
+  color: white;
+  text-shadow: 1px 2px 4px white    ;
+
+
+
+}
+
+.padd {
+    padding-right: 18px;
+    padding-left: 15px;
+
+}
+
+.smallpadd {
+    padding-right: 14px;
+
+}
+
+.paddlarge {
+    padding-left: 20px;
+    padding-right: 22px;
+
+}
+
+.mul {
+
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.min {
+    padding-left: 23px;
+    padding-right: 25px;
+}
+
+.dot {
+    padding-left: 23px;
+    padding-right: 28px;
+}
 .btn:hover{
-
-background-color: rgb(255, 255, 255);
-color: rgb(10, 9, 9);
-border-color:white ;
-}
-.input{
-    padding-top: 10px   ;
-background:none ;    
-border:1px  solid black  ;
-margin-bottom: 3px;
-color:white;
-border: none;
-font-size: 17px;
+    color: white;
 
 }
+input{
+font-size: 19px;
+color: aliceblue;
+background: none;
+border: 3px solid   rgb(255, 35, 255);
+box-shadow:-1px -6px 13px rgb(255 85 255);
+}
 
-@media(max-width:242px){
-    .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap:15px;
-    }
-    .btn{
-
-        padding: 15px;
+@media(max-width:276px) {
+input{
+    font-size: 14px;
+    border: none;
+}
+    .btn {
         border: none;
-margin-left: 1px;
-    }
-    .input{
-        /* padding: 10px   0px; */
-        border: 1px solid   black;
-        font-size: 14px;
-        padding-left: 2px;
-    }
-    .seccard{
-        padding:0%;
-        margin: 1px;
+        padding: 0px;
+        font-size: 30px;
+        box-shadow: none;
     }
 
+    .fhead {
+        border: none;
+        display: flex;
+        gap: 3px;
+    }
+
+.fhead {
+height: 39vh;
+padding: 10px   5px 10px    5px;
+
+}
+.plus{
+    padding-left: 12px;
 
 }
 
+.head1 {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.head2 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
 
 
+.head3 {
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+}
 
+.head4 {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+}
+.head5 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+}
+.AC{
+border: 2px solid   red;
+    color: red;
 
+}
+.eq{
+    border-color: orangered;
+    color: rgb(255, 0, 0);
 
-
-
+}   
