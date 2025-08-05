@@ -82,6 +82,19 @@ border: 3px solid   rgb(255, 35, 255);
 box-shadow:-1px -6px 13px rgb(255 85 255);
 }
 
+.AC{
+    border: 2px solid   red;
+        color: red;
+    
+    }
+    .eq{
+        border-color: orangered;
+        color: rgb(255, 0, 0);
+    
+    }  .slash{
+        padding-left: 23px;
+        padding-right: 24px;
+    }
 @media(max-width:276px) {
 input{
     font-size: 14px;
@@ -125,27 +138,27 @@ padding: 10px   5px 10px    5px;
 .head3 {
     display: flex;
     flex-direction: row;
-    gap: 33px;
+    gap: 31px;
 }
 
 .head4 {
     display: flex;
     flex-direction: row;
-    gap: 31px;
+    gap: 32px;
 }
 .head5 {
     display: flex;
     flex-direction: row;
     gap: 15px;
 }
-}
 .AC{
-border: 2px solid   red;
-    color: red;
-
+    border:none;
+        color: rgb(255, 255, 255);
+    
+    }
+    .eq{
+        border: none;
+        color: rgb(255, 255, 255);
+    
+    }   
 }
-.eq{
-    border-color: orangered;
-    color: rgb(255, 0, 0);
-
-}   
