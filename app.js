@@ -1,20 +1,48 @@
-let btn=document.querySelectorAll(".btn");
+// its  string  of  inputdata
+let string = '';
+//  All buttons
+let btn = document.querySelectorAll(".btn");
 
-for(let i=0;i<btn.length ;i++   ){
+//creat array   from    buttons with    foreach 
+Array.from(btn).forEach((butt) => {
 
-let butt=   document.querySelector(".btn");
+    butt.addEventListener("click", (e) => {
 
-btn[i].addEventListener("click",()=>{
+        let input = document.querySelector(".numbers");
 
-    let input=document.querySelector(".numbers");
-    let String="";
-    input.value+=btn[i].innerHTML;
-    let find= 22;   
-//is ko kal findvkaronga
+        if (e.target.innerHTML == "=") {
+            try {
+
+                string = eval(string).toFixed(5);
+                document.querySelector(".numbers").value = string;
+            }
+            catch (err) {
+                console.log(err)
+                string = '';
+                input.value = string;
+
+            }
+        }
+        else if (e.target.innerHTML == 'AC') {
+
+            let input = document.querySelector(".numbers");
+            string = '';
+            input.value = string;
+
+        }
+        else {
 
 
+
+            string = string + e.target.innerHTML;
+            input.value = string;
+        }
+
+
+    })
 
 })
 
 
-}
+
+
