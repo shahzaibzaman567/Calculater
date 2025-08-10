@@ -68,7 +68,7 @@ margin-top:30px ;
 
 .dot {
     padding-left: 23px;
-    padding-right: 28px;
+    padding-right: 23px;
 }
 .btn:hover{
     color: white;
@@ -97,8 +97,10 @@ box-shadow:-1px -6px 13px rgb(255 85 255);
     }
 @media(max-width:276px) {
 input{
-    font-size: 14px;
+    font-size: 15px;
     border: none;
+    padding-top:4px;
+    padding-bottom:4px ;
 }
     .btn {
         border: none;
@@ -126,30 +128,30 @@ padding: 10px   5px 10px    5px;
 .head1 {
     display: flex;
     flex-direction: row;
-    gap: 18px;
+    gap: 27px;
 }
 .head2 {
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 45px;
 }
 
 
 .head3 {
     display: flex;
     flex-direction: row;
-    gap: 31px;
+    gap: 45px;
 }
 
 .head4 {
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 44px;
 }
 .head5 {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 28px;
 }
 .AC{
     border:none;
